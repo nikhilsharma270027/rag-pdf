@@ -162,7 +162,7 @@ export default function SignInForm() {
     const { formState } = form;
     
     return (
-        <Card className="max-w-full min-w-[24rem] mx-auto">
+        <Card className="max-w-full min-w-[24rem] mx-auto bg-amber-100 shadow-lg">
             <CardHeader className="text-center">
                 <CardTitle className="md:text-2xl font-instrument-serif text-lg">Sign In</CardTitle>
                 <CardDescription className="text-xs md:text-sm">

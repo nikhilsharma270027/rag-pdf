@@ -1,3 +1,4 @@
+// "use client";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../../../../src/components/ui/card";
 import { User } from "../../../../src/lib/auth";
 import { getServerSession } from "../../../../src/lib/get-session";
@@ -30,9 +31,9 @@ interface ProfileInformationProps {
 
 function ProfileInformation({ user }: ProfileInformationProps) {
   return (
-    <div className="flex flex-col justify-center items-center mx-auto">
+    <div className="bg-white flex flex-col justify-center items-center mx-auto">
       <div className="flex w-full justify-end ">
-        <button onClick={() => signOut({ callbackUrl: "/sign-in", redirect: true })}>Sign Out</button>
+        <SignOutButton />
       </div>
       <Card className="mt-20">
         <CardHeader>

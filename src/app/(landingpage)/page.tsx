@@ -45,7 +45,7 @@ export default function Page() {
         highlightedText="RAG-PDF"
         description="Chat with your PDFs using the power of Retrieval-Augmented Generation and AI."
         ctaText="Get Started"
-        ctaLink="/auth"
+        ctaLink="/dashboard"
       />
       <FeaturesGrid features={features} />
     </div>
