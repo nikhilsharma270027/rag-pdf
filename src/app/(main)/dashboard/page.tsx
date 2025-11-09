@@ -31,7 +31,7 @@ interface ProfileInformationProps {
 
 function ProfileInformation({ user }: ProfileInformationProps) {
   return (
-    <div className="bg-white flex flex-col justify-center items-center mx-auto">
+    <div className="bg-white flex flex-col justify-center items-center mx-auto w-full">
       <div className="flex w-full justify-end ">
         <SignOutButton />
       </div>

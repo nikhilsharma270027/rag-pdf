@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Lexend } from "next/font/google";
 import "./globals.css";
+import { Toaster } from "sonner";
 
 const inter = Inter({
   subsets: ['latin'],
@@ -36,6 +37,7 @@ export default function RootLayout({
         className={`${inter.variable} ${lexend.variable} font-sans antialiased min-h-screen bg--background`}
       >
         {children}
+        <Toaster position="top-right" richColors />
       </body>
     </html>
   );
