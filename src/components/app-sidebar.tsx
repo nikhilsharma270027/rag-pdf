@@ -1,4 +1,4 @@
-import { Calendar, Home, Inbox, Scroll, Search, Settings, User } from "lucide-react";
+import { Calendar, Home, Inbox, Notebook, Scroll, Search, Settings, User } from "lucide-react";
 import {
   Sidebar,
   SidebarContent,
@@ -18,8 +18,8 @@ import { AvatarFallback, AvatarImage } from "./ui/avatar";
 const items = [
   { title: "Home", url: "/dashboard", icon: Home },
   { title: "Sciba", url: "#", icon: Scroll },
+  { title: "Notes", url: "/notes", icon: Notebook },
   { title: "Profile", url: "/profile", icon: User },
-  // { title: "Search", url: "#", icon: Search },
   // { title: "Settings", url: "#", icon: Settings },
 ];
 

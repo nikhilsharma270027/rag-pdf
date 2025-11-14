@@ -65,7 +65,7 @@ export default function SignUpForm() {
                 email,
                 password,
                 name,
-                
+                callbackURL: "/dashboard"
             });
 
             if (apiError) {
